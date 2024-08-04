@@ -1,7 +1,7 @@
 # milk_particle_quant
 Python code to quantify the area of particulate features in micrographs of milk.
 
-This script uses the skimage and shapely libraries to convert a colour micrograph to an 8-bit image gresycale by extracting the blue channel. A Gaussian blur is applied and contours around features are detected. The area of contours are calculated and the area of any contours within contours are subtracted as holes. 
+This script uses the skimage and shapely libraries to convert a colour micrograph to an 8-bit image gresycale by extracting the blue channel. A Gaussian blur is applied and contours around features are detected. The area of contours are calculated and the area of any contours within contours are subtracted as holes. Results are written to an .xlsx file and there are options to plot the figures live as they are processed or to save them as image files. 
 
 The code is written for incorporation into a parallel processing script which feeds it an input tuple containing:
 
