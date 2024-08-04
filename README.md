@@ -5,13 +5,13 @@ This script uses the skimage and shapely libraries to convert a colour micrograp
 
 The code is written for incorporation into a parallel processing script which feeds it an input tuple containing:
 
-    # the path to the input image
-    # a list of values for _gauss_range
-    # a list of values for _thresh_range
-    # a Boolean for _live_plot
-    # a Boolean for _save_figs
-    # the file path of _output_folder
-    
+- the path to the input image
+- a list of values for _gauss_range
+- a list of values for _thresh_range
+- a Boolean for _live_plot
+- a Boolean for _save_figs
+- the file path of _output_folder
+   
 
 The various value for _gauss_range and _thresh_range are so you can optimise the results for your own images. 
 
